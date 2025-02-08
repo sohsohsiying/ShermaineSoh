@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Customer</title>
+</head>
+<body>
+    <h2>Create A New Customer</h2>
+    <form action="/action_page.php">
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth (yyyy-mm-dd):</label></td>
+                <td><input type="text" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    <button type="button">Cancel</button>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

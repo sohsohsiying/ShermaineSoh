@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.1/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-QWTK2yjPEjT5vsWaRU9oFEopk6YcThYMnD7sPvlTynY4D2xH7uW0l7bJfu6M9ZC">
+</head>
+<body>
+    <br /><br />
+    <h2>Create A New Customer</h2>
+    <div style="width: 200px; float: left; padding-right: 30px">
+        <ul style="list-style-type: none;">
+            <li><a href="Task3.html">Create A New Customer</a></li>
+            <li><a href="Task3Part2.html">List Customers</a></li>
+        </ul>
+    </div>
+
+    <form action="/action_page.php">
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth (yyyy-mm-dd):</label></td>
+                <td><input type="text" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: right;">
+                    <button type="button">Cancel</button>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
